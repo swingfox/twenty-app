@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Twenty</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_register">Register</string>
+    <string name="label_email">E-mail</string>
+    <string name="label_password">Password</string>
+    <string name="label_repass">Retype password</string>
+    <string name="label_save">Save</string>
+    <string name="label_save_exit">Save and Exit</string>
+    <string name="title_activity_lockcode">LockcodeActivity</string>
+    <string name="label_lock">4 Number Lock</string>
+    <string name="label_lockcode">Lock code</string>
+    <string name="label_relock">Retype lock code</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="label_login">Login</string>
+    <string name="label_forgot"><u>Forgot lock?</u></string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_setactive">Set active time</string>
+    <string name="label_setwait">Set wait time</string>
+    <string name="label_history">History Log</string>
+    <string name="label_apps">App List</string>
+    <string name="label_resetlock">Reset Lock Code</string>
+    <string name="label_change_email">Change E-mail Address</string>
+    <string name="label_exit">Exit</string>
+    <string-array name="active">
+        <item>1 min</item>
+        <item>20 min</item>
+        <item>25 min</item>
+        <item>30 min</item>
+        <item>35 min</item>
+        <item>40 min</item>
+        <item>45 min</item>
+        <item>50 min</item>
+        <item>55 min</item>
+        <item>60 min</item>
+    </string-array>
+    <string-array name="wait">
+        <item>20 sec</item>
+        <item>25 sec</item>
+        <item>30 sec</item>
+        <item>35 sec</item>
+        <item>40 sec</item>
+        <item>45 sec</item>
+        <item>50 sec</item>
+        <item>55 sec</item>
+        <item>60 sec</item>
+    </string-array>
+    <string name="title_activity_apps">AppsActivity</string>
+    <string name="label_angrybirds">Angry Birds</string>
+    <string name="label_pvz">Plants vs Zombies</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_resetlock">ResetLockActivity</string>
+    <string name="label_old_lock">Old Lock Code</string>
+    <string name="label_retype_lock">Retype New Lock Code</string>
+    <string name="label_new_lock">New Lock Code</string>
+    <string name="title_activity_email">EmailActivity</string>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zw">
+
+    <LinearLayout
+        android:paddingTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="285dp"
+        android:layout_height="155dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/eye"
+            android:background="#00000000"
+            android:adjustViewBounds="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/twentywelcome"
+            android:background="#00000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="285dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1"
+        android:paddingLeft="0dp"
+        android:id="@+id/linearLayout3">
+
+        <EditText
+            android:layout_width="285dp"
+            android:layout_height="65dp"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/editTextLock"
+            android:background="@drawable/lockcode"
+            android:hint="4 number code"
+            android:paddingLeft="75dp"
+            android:focusableInTouchMode="true"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:maxLength="4" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="285dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonLogin"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/loginbutton"
+            android:background="#00000000" />
+
+        <TextView
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Forgot lockcode?"
+            android:id="@+id/tvForgot"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+</RelativeLayout>

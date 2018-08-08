@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/label_resetlock"
+        android:id="@+id/textViewResetLock"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_save"
+        android:id="@+id/buttonSave"
+        android:layout_gravity="bottom"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_exit"
+        android:id="@+id/imageButtonExit"
+        android:layout_gravity="right|bottom"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_old_lock"
+        android:id="@+id/textViewOldLock"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_below="@+id/textViewResetLock"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editTextOldLock"
+        android:layout_below="@+id/textViewOldLock"
+        android:layout_alignRight="@+id/imageButtonExit"
+        android:layout_alignEnd="@+id/imageButtonExit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:maxLength="4"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_new_lock"
+        android:id="@+id/textViewNewLock"
+        android:layout_below="@+id/editTextOldLock"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editTextNewLock"
+        android:layout_below="@+id/textViewNewLock"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/imageButtonExit"
+        android:layout_alignEnd="@+id/imageButtonExit"
+        android:padding="10dp"
+        android:maxLength="4"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/label_retype_lock"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editTextNewLock"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:ems="10"
+        android:id="@+id/editTextRetypeNew"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/imageButtonExit"
+        android:layout_alignEnd="@+id/imageButtonExit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:maxLength="4"
+        android:textAlignment="center" />
+</RelativeLayout>
